@@ -33,7 +33,7 @@
                     :key="character"
                     :id="character"
                     class="character" 
-                    :src="`/src/assets/img/characters/${character}.webp`" 
+                    :src="`/characters/${character}.webp`" 
                     :alt="character"
                     @click="onClick(character, index)"
                     >
