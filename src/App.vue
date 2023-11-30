@@ -1,6 +1,5 @@
 <script setup>
-import { ref } from 'vue';
-import FirstPuzzle from './components/First-puzzle.vue';
+import firstPuzzle from './components/first-puzzle.vue';
 import secondPuzzle from './components/second-puzzle.vue';
 import thirdPuzzle from './components/third-puzzle.vue';
 import { usePuzzleStore } from './store'
@@ -8,8 +7,6 @@ import { storeToRefs } from 'pinia';
 
 const store = usePuzzleStore()
 const { geActivePuzzle } = storeToRefs(store) 
-
-// const activePuzzle = ref(0);
 </script>
 
 <template>
