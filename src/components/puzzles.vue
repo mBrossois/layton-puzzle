@@ -83,7 +83,7 @@ function onNextPuzzle() {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100svh;
     align-items: center;
 }
 
