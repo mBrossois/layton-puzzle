@@ -117,7 +117,7 @@ function onNextPuzzle() {
 }
 
 .tabs-content {
-    max-height: 15rem;
+    max-height: 16rem;
     padding: 1rem;
     overflow: scroll;
     background: rgba(255, 255, 255, 0.3);
@@ -125,6 +125,7 @@ function onNextPuzzle() {
 }
 
 .puzzle-field {
+    min-height: 15rem;
     flex: 1;
     overflow: hidden;
     display: flex;
